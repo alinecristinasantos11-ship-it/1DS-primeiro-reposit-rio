@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+      color:aliceblue
+}
+
+li{
+  font-size: 19px;
+  color:brown
+}
+
+h1{
+  color:white;
+}
+
+#html{
+  color:deeppink;
+}
+
+#css{
+  color:cornflowerblue
+}
+
+#JavaScript{
+  color:brown
+}
+
+button{
+    background-color: turquoise;
+    padding: 10px 20px; /* Espaço Interno*/
+    margin: 10px; /* Espaço Externo */
+    border-radius: 10px; /* Borda */
+    max-width: 100px;
+}
+span{
+    font-size: 20px;
+    color: rgb(48, 32, 48) (119, 0, 255);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
