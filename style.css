@@ -40,3 +40,9 @@ div{
     display: flex;
     flex-direction: column;
 }
+
+#acessivel{
+display: fixed;
+left.20px;
+bottom: 20px
+}

@@ -8,7 +8,7 @@
 <style>
     body{
         background-color:black;
-        color:rgb(65, 17, 109)
+        color:rgba(105, 66, 141, 0.692)
     }
 </style>
 
@@ -36,14 +36,11 @@
     <button>🐌<span>0</span></button>
     </div>
 
-    <script>
-        const botao = document.querySelector("button")
-        botao.addEventListener('click', curtir)
+    <div id="acessivel">
+        <button id="tamanho">A+</button>
+        <button id="contraste">Contraste</button>
+    </div>
 
-        function curtir(){
-            let curtidas = document.querySelector("span")
-            curtidas.textContent++;
-        }
-    <script>
-<body>
+    <script src="script.js"></script>>
+</body>
 </html>
