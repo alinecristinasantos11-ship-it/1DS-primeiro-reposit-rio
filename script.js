@@ -16,3 +16,12 @@ botao.addEventListener('click', curtir)
             fonte++;
             document.body.style.fontSize = fonte + "px";
         }
+
+        // BOTÃO DE CONTRASTE 
+         const contraste = document.getElementById("contraste") 
+         contraste.addEventListener("click",mudar_o_contraste_para_amarelo ) 
+
+         //FUNÇAO 
+         function mudar_o_contraste_para_amarelo(){
+             document.body.style.color = "yellow"
+             }
